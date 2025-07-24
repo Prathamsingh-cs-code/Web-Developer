@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container{
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient( 180.4deg,  rgba(0,6,10,1) 1%, rgba(1,190,237,1) 91.4% );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .card{
+            width: 400px;
+            height: 600px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        
+        }
+        .para {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            padding: 5%;
+            
+        }
+        .card img{
+            width: 400px;
+            height: 40%;
+            border-radius: 10%;
+
+        }
+        .amount{
+            width: 80%;
+            height: 10%;
+            background-color: rgb(106, 174, 227);
+            border-radius: 10px;
+
+        }
+        #paymentbutton{
+            width: 380px;
+            height: 55px;
+            background-color: rgb(66, 96, 214);
+            border-radius: 10px;
+            color: #fff;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://i.ytimg.com/vi/uoXXwK6d0fo/maxresdefault.jpg" alt="book cover">
+            <div class="para">
+    <h2> GATE PYQ book </h2>
+    <p>
+        This book contains previous year questions of GATE exam from 2000 to 2023. It is a great resource for students preparing for the GATE exam, providing a comprehensive collection of past questions along with solutions and explanations.
+    </p>
+       </div>
+       <div class="amount">
+    
+            <h2>amount to buy this book</h2>
+            <a href="Buy now"> Buy now</a>
+
+            
+        </div>
+        <br>
+        <br>
+        
+        <button id="paymentbutton">
+            <p>processing to payment...</p>
+        </button>
+            
+        </div>
+         </div>
+    </div>
+</body>
+</html>            
