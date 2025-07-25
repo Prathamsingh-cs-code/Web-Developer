@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **Web development and algorithms**
 
-- 💬 Ask me about **Continuous learning from my journey 😎**
+- 💬 Ask me about **Continuously learning from my journey 😎**
 
 - 📫 How to reach me **alok84087@gmail.com**
 
